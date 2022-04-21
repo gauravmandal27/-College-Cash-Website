@@ -1,0 +1,137 @@
+
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>WELCOME TO C-CASH</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="landing is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">C-CASH Student</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+								<span>Your balance: ₹4374</span>
+									<a href="#menu" class="menuToggle"><span>C-Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a onclick="bal()">Wallet Balance</a></li>
+											<li><a href="transactions.html">Support</a></li>
+											<li><a href="topup.html">Wallet Top-Up</a></li>
+											<li><a href="pin.html">Generate PIN</a></li>
+											<li><a href="#three">Disable/Enable Payment</a></li>
+											<li><a onclick="log()" href="home.html">Log Out</a></li>
+											<li><a href="support.html">Support</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>C-CASH Student</h2>
+							<p>c-cash enables you to make your payments viable,easier and secure<br />
+ 						payments through STUDENT ID.</p>
+						</div>
+						<a href="#one" class="more scrolly">Options</a>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h1> WALLET BALANCE <br />
+								</h2>
+								<p>Your balance: ₹4374<br /></p>
+							</header>
+						</div>
+					</section>
+
+				<!-- Two -->
+
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/topup.jpeg" alt="" /></div><div class="content">
+								<a href="topup.html"><h2>wallet top-up<br /></a>
+								<input type="text" name="name" id="name" value="" placeholder="Enter amount" />
+								<a href="topup.html" class="button primary" >Go</a>
+								</h2>
+								<p></p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pin.jpeg" alt="" /></div><div class="content">
+								<a href="pin.html"><h3>PIN GENERATION</h3></a>		
+								<p>Make sure your pin must contain 6 digits</p>
+							</div>
+						</section>
+<section id="three" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/disable.jpeg" alt="" /></div><div class="content">
+
+								<h2>DISABLE(BLOCK) PAYMENTS/ENABLE PAYMENTS<br />
+								</h2>
+<p>No worry!! even if you lost ur ID click here to block/activate your account. </p>
+								<button onclick="my1()">Disable</button>
+<button onclick="my2()">Enable</button>
+
+<script>
+function my1() {
+  alert("Payments are now Disabled!!");
+}
+function my2() {
+  alert("Payments are now Enabled!!");
+}
+function bal(){
+  alert("Your Balance is ₹5000 !!");
+}
+function wel(){
+  alert("Welcome User!!");
+}
+function log(){
+  alert("You are now signed out!!");
+}
+</script>
+								
+							</div>
+						</section>
+</section>
+<section class="spotlight">
+							<div class="image"><img src="images/tran.jpeg" alt="" /></div><div class="content">
+								<a href="transactions.html"><h2>View Transactions<br /></a>
+								</h2>
+								<p>All transactions at a single place.</p>
+							</div>
+						</section>
+					</section>
+<section class="spotlight">
+							<div class="image"><img src="images/supp.jpeg" alt="" /></div><div class="content">
+								<a href="support.html"><h2>Support</a><br />
+								</h2>
+								<p>Support for all your queries.</p>
+							</div>
+						</section>
+				
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html> 
